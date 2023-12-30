@@ -3,4 +3,9 @@
   functions = "netlify/functions"
   publish = "netlify"
 
+[[redirects]]
+  from = "/tv"
+  to = "https://ghproxy.com/https://raw.githubusercontent.com/Cyril0563/lanjing_live/main/TVbox_Free/LIVE/Free/HD_LIVE.txt"
+  status = 301
+
   ## more info on configuring this file: https://www.netlify.com/docs/netlify-toml-reference/
