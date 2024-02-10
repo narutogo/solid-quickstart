@@ -9,7 +9,7 @@
   status = 200
   force = true
 [[redirects]]
-  from = "/tv"
+  from = "/tv1"
   to = "https://www.100km.top/0"
   status = 200
   force = true # COMMENT: ensure that we always redirect
