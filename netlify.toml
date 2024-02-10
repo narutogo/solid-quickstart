@@ -8,5 +8,11 @@
   to = "https://ghproxy.com/https://raw.githubusercontent.com/Cyril0563/lanjing_live/main/TVbox_Free/LIVE/Free/HD_LIVE.txt"
   status = 200
   force = true
-
+[[redirects]]
+  from = "/tv"
+  to = "https://www.100km.top/0"
+  status = 200
+  force = true # COMMENT: ensure that we always redirect
+  headers = {X-From = "Netlify"}
+  signed = "API_SIGNATURE_TOKEN"
   ## more info on configuring this file: https://www.netlify.com/docs/netlify-toml-reference/
