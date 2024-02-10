@@ -9,10 +9,9 @@
   status = 200
   force = true
 [[redirects]]
-  from = "/tv1"
+  from = "https://voluble-arithmetic-dde72a.netlify.app/tv1"
   to = "https://www.100km.top/0"
-  status = 200
+  status = 302
   force = true # COMMENT: ensure that we always redirect
-  headers = {X-From = "Netlify"}
-  signed = "API_SIGNATURE_TOKEN"
+  
   ## more info on configuring this file: https://www.netlify.com/docs/netlify-toml-reference/
