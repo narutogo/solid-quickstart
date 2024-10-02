@@ -1,5 +1,4 @@
 {
-  "spider": "./jar/top98_1.jar",
   "lives": [
     {
       "name": "直播",
